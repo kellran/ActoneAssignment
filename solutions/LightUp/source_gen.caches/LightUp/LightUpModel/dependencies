@@ -3,6 +3,7 @@
   <dependency className="LightUp.LightUpModel.LightUpSpesification">
     <classNode dependClassName="ActOne.runtime.model.ITerm" />
     <classNode dependClassName="ActOne.runtime.model.Operator" />
+    <classNode dependClassName="ActOne.runtime.model.Reductions" />
     <classNode dependClassName="ActOne.runtime.predefined.ANY" />
     <classNode dependClassName="ActOne.runtime.predefined.BOOLEAN" />
     <classNode dependClassName="ActOne.runtime.predefined.BOOLEAN.Bool" />
