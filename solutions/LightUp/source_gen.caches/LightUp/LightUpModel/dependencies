@@ -8,6 +8,7 @@
     <classNode dependClassName="ActOne.runtime.predefined.BOOLEAN" />
     <classNode dependClassName="ActOne.runtime.predefined.BOOLEAN.Bool" />
     <classNode dependClassName="ActOne.runtime.predefined.INTEGER" />
+    <classNode dependClassName="ActOne.runtime.predefined.INTEGER.Int" />
     <classNode dependClassName="ActOne.runtime.predefined.STRING" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />

@@ -8,6 +8,7 @@ import ActOne.runtime.predefined.STRING;
 import ActOne.runtime.predefined.ANY;
 import ActOne.runtime.model.ITerm;
 import ActOne.runtime.model.Operator;
+import ActOne.runtime.predefined.INTEGER.Int;
 import ActOne.runtime.predefined.BOOLEAN.Bool;
 import ActOne.runtime.model.Reductions;
 
@@ -90,6 +91,7 @@ public abstract class LightUpSpesification {
   }
 
 
+  public static final Int Count = new Int(ITerm.Kind.VARIABLE, "Count");
   public static final LightUp LU = new LightUp(ITerm.Kind.VARIABLE, "LU");
   public static final Line l1 = new Line(ITerm.Kind.VARIABLE, "l1");
   public static final Line l2 = new Line(ITerm.Kind.VARIABLE, "l2");
@@ -127,15 +129,20 @@ public abstract class LightUpSpesification {
   private static final Operator oper_mkLightUp = new Operator(true, "mkLightUp");
   private static final Operator oper_mkLine = new Operator(true, "mkLine");
   private static final Operator oper_mkSightLine = new Operator(true, "mkSightLine");
+  private static final Operator oper__0 = new Operator(true, "_0");
   private static final Operator oper__1 = new Operator(true, "_1");
   private static final Operator oper__2 = new Operator(true, "_2");
   private static final Operator oper__3 = new Operator(true, "_3");
   private static final Operator oper__4 = new Operator(true, "_4");
   private static final Operator oper__X = new Operator(true, "_X");
   private static final Operator oper__W = new Operator(true, "_W");
+  private static final Operator oper__B = new Operator(true, "_B");
   private static final Operator oper_CheckSightLine = new Operator(false, "CheckSightLine");
   private static final Operator oper_CheckAllSightLines = new Operator(false, "CheckAllSightLines");
   private static final Operator oper_CheckBox = new Operator(false, "CheckBox");
+  private static final Operator oper_CheckLamp = new Operator(false, "CheckLamp");
+  private static final Operator oper_CountLamp = new Operator(false, "CountLamp");
+  private static final Operator oper_countAllLamps = new Operator(false, "countAllLamps");
   private static final Operator oper_CorrectPuzzle = new Operator(false, "CorrectPuzzle");
   private static final Operator oper_Transpose = new Operator(false, "Transpose");
 
@@ -147,6 +154,9 @@ public abstract class LightUpSpesification {
   }
   public static SightLine mkSightLine(Line Line_5) {
     return new SightLine(oper_mkSightLine, Line_5);
+  }
+  public static Box _0() {
+    return new Box(oper__0);
   }
   public static Box _1() {
     return new Box(oper__1);
@@ -166,6 +176,9 @@ public abstract class LightUpSpesification {
   public static Box _W() {
     return new Box(oper__W);
   }
+  public static Box _B() {
+    return new Box(oper__B);
+  }
   public static Bool CheckSightLine(Line Line_6) {
     return new Bool(oper_CheckSightLine, Line_6);
   }
@@ -175,18 +188,30 @@ public abstract class LightUpSpesification {
   public static Bool CheckBox(Box Box_5) {
     return new Bool(oper_CheckBox, Box_5);
   }
-  public static Bool CorrectPuzzle(LightUp LightUp_1) {
-    return new Bool(oper_CorrectPuzzle, LightUp_1);
+  public static Int CheckLamp(Box Box_6, Int Int_0) {
+    return new Int(oper_CheckLamp, Box_6, Int_0);
   }
-  public static LightUp Transpose(LightUp LightUp_2) {
-    return new LightUp(oper_Transpose, LightUp_2);
+  public static Bool CountLamp(Line Line_7, Int Int_1) {
+    return new Bool(oper_CountLamp, Line_7, Int_1);
+  }
+  public static Bool countAllLamps(LightUp LightUp_1) {
+    return new Bool(oper_countAllLamps, LightUp_1);
+  }
+  public static Bool CorrectPuzzle(LightUp LightUp_2) {
+    return new Bool(oper_CorrectPuzzle, LightUp_2);
+  }
+  public static LightUp Transpose(LightUp LightUp_3) {
+    return new LightUp(oper_Transpose, LightUp_3);
   }
 
   /*package*/ static void initAxioms() {
     System.out.println("Using axioms of " + "LightUpSpesification");
-    ITerm.axiom(LightUpSpesification.CheckBox(LightUpSpesification.AnyBox), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._4(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._3(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._2(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._1(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._X(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification._W(), LightUpSpesification.AnyBox), BOOLEAN.True(), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()));
+    ITerm.axiom(LightUpSpesification.CheckBox(LightUpSpesification.AnyBox), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._4(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._3(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._2(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._1(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._0(), LightUpSpesification.AnyBox)), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification._X(), LightUpSpesification.AnyBox), BOOLEAN.If_Then_Else(BOOLEAN.Not(BOOLEAN.Equal(LightUpSpesification._W(), LightUpSpesification.AnyBox)), BOOLEAN.True(), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()));
     ITerm.axiom(LightUpSpesification.CheckSightLine(LightUpSpesification.mkLine(LightUpSpesification.B1_1, LightUpSpesification.B1_2, LightUpSpesification.B1_3, LightUpSpesification.B1_4, LightUpSpesification.B1_5)), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckBox(LightUpSpesification.B1_1), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckBox(LightUpSpesification.B1_2), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckBox(LightUpSpesification.B1_3), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckBox(LightUpSpesification.B1_4), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckBox(LightUpSpesification.B1_5), BOOLEAN.True()), BOOLEAN.True(), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()));
     ITerm.axiom(LightUpSpesification.CheckAllSightLines(LightUpSpesification.mkLightUp(LightUpSpesification.l1, LightUpSpesification.l2, LightUpSpesification.l3, LightUpSpesification.l4, LightUpSpesification.l5)), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckSightLine(LightUpSpesification.l1), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckSightLine(LightUpSpesification.l2), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckSightLine(LightUpSpesification.l3), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckSightLine(LightUpSpesification.l4), BOOLEAN.True()), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification.CheckSightLine(LightUpSpesification.l5), BOOLEAN.True()), BOOLEAN.True(), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()));
+    ITerm.axiom(LightUpSpesification.CheckLamp(LightUpSpesification.AnyBox, LightUpSpesification.Count), BOOLEAN.If_Then_Else(BOOLEAN.Equal(LightUpSpesification._B(), LightUpSpesification.AnyBox), INTEGER.ADD(LightUpSpesification.Count, INTEGER.natValueTerm(1)), INTEGER.ADD(LightUpSpesification.Count, INTEGER.natValueTerm(0))));
+    ITerm.axiom(LightUpSpesification.CountLamp(LightUpSpesification.mkLine(LightUpSpesification.B1_1, LightUpSpesification.B1_2, LightUpSpesification.B1_3, LightUpSpesification.B1_4, LightUpSpesification.B1_5), LightUpSpesification.Count), BOOLEAN.If_Then_Else(INTEGER.EQ_GR(INTEGER.ADD(INTEGER.ADD(INTEGER.ADD(LightUpSpesification.CheckLamp(LightUpSpesification.B1_1, INTEGER.natValueTerm(0)), LightUpSpesification.CheckLamp(LightUpSpesification.B1_2, INTEGER.natValueTerm(0))), INTEGER.ADD(LightUpSpesification.CheckLamp(LightUpSpesification.B1_3, INTEGER.natValueTerm(0)), LightUpSpesification.CheckLamp(LightUpSpesification.B1_4, INTEGER.natValueTerm(0)))), INTEGER.ADD(LightUpSpesification.CheckLamp(LightUpSpesification.B1_5, INTEGER.natValueTerm(0)), INTEGER.natValueTerm(0))), INTEGER.natValueTerm(2)), BOOLEAN.False(), BOOLEAN.True()));
+    ITerm.axiom(LightUpSpesification.countAllLamps(LightUpSpesification.mkLightUp(LightUpSpesification.l1, LightUpSpesification.l2, LightUpSpesification.l3, LightUpSpesification.l4, LightUpSpesification.l5)), BOOLEAN.If_Then_Else(LightUpSpesification.CountLamp(LightUpSpesification.l1, INTEGER.natValueTerm(0)), BOOLEAN.If_Then_Else(LightUpSpesification.CountLamp(LightUpSpesification.l2, INTEGER.natValueTerm(0)), BOOLEAN.If_Then_Else(LightUpSpesification.CountLamp(LightUpSpesification.l3, INTEGER.natValueTerm(0)), BOOLEAN.If_Then_Else(LightUpSpesification.CountLamp(LightUpSpesification.l4, INTEGER.natValueTerm(0)), BOOLEAN.If_Then_Else(LightUpSpesification.CountLamp(LightUpSpesification.l5, INTEGER.natValueTerm(0)), BOOLEAN.True(), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()), BOOLEAN.False()));
     ITerm.axiom(LightUpSpesification.Transpose(LightUpSpesification.mkLightUp(LightUpSpesification.mkLine(LightUpSpesification.B1_1, LightUpSpesification.B1_2, LightUpSpesification.B1_3, LightUpSpesification.B1_4, LightUpSpesification.B1_5), LightUpSpesification.mkLine(LightUpSpesification.B2_1, LightUpSpesification.B2_2, LightUpSpesification.B2_3, LightUpSpesification.B2_4, LightUpSpesification.B2_5), LightUpSpesification.mkLine(LightUpSpesification.B3_1, LightUpSpesification.B3_2, LightUpSpesification.B3_3, LightUpSpesification.B3_4, LightUpSpesification.B3_5), LightUpSpesification.mkLine(LightUpSpesification.B4_1, LightUpSpesification.B4_2, LightUpSpesification.B4_3, LightUpSpesification.B4_4, LightUpSpesification.B4_5), LightUpSpesification.mkLine(LightUpSpesification.B5_1, LightUpSpesification.B5_2, LightUpSpesification.B5_3, LightUpSpesification.B5_4, LightUpSpesification.B5_5))), LightUpSpesification.mkLightUp(LightUpSpesification.mkLine(LightUpSpesification.B1_1, LightUpSpesification.B2_1, LightUpSpesification.B3_1, LightUpSpesification.B4_1, LightUpSpesification.B5_1), LightUpSpesification.mkLine(LightUpSpesification.B1_2, LightUpSpesification.B2_2, LightUpSpesification.B3_2, LightUpSpesification.B4_2, LightUpSpesification.B5_2), LightUpSpesification.mkLine(LightUpSpesification.B1_3, LightUpSpesification.B2_3, LightUpSpesification.B3_3, LightUpSpesification.B4_3, LightUpSpesification.B5_3), LightUpSpesification.mkLine(LightUpSpesification.B1_4, LightUpSpesification.B2_4, LightUpSpesification.B3_4, LightUpSpesification.B4_4, LightUpSpesification.B5_4), LightUpSpesification.mkLine(LightUpSpesification.B1_5, LightUpSpesification.B2_5, LightUpSpesification.B3_5, LightUpSpesification.B4_5, LightUpSpesification.B5_5)));
   }
 
@@ -201,9 +226,9 @@ public abstract class LightUpSpesification {
 
     // Execute actions
 
-    final ITerm test1 = ITerm.let("test1", LightUpSpesification.mkLightUp(LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W())));
-    final ITerm test2 = ITerm.let("test2", LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._X(), LightUpSpesification._W(), LightUpSpesification._W()));
-    Reductions.initReduction(Reductions.Traversal.DFS, false, LightUpSpesification.CheckAllSightLines((LightUp) test1));
+    final ITerm test1 = ITerm.let("test1", LightUpSpesification.mkLightUp(LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._B(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._B(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W()), LightUpSpesification.mkLine(LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W(), LightUpSpesification._W())));
+    final ITerm test2 = ITerm.let("test2", INTEGER.natValueTerm(0));
+    Reductions.initReduction(Reductions.Traversal.DFS, false, BOOLEAN.And(LightUpSpesification.countAllLamps((LightUp) test1), LightUpSpesification.countAllLamps(LightUpSpesification.Transpose((LightUp) test1))));
   }
 
 }
