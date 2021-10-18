@@ -42,90 +42,92 @@
       <node id="606756356280869921" at="100,0,101,0" concept="6" trace="l5" />
       <node id="606756356281247310" at="101,0,102,0" concept="6" trace="AnyBox" />
       <node id="8623100199798821593" at="102,0,103,0" concept="6" trace="AnyLine" />
-      <node id="606756356280869662" at="103,0,104,0" concept="6" trace="B1_1" />
-      <node id="606756356280869684" at="104,0,105,0" concept="6" trace="B1_2" />
-      <node id="606756356280869687" at="105,0,106,0" concept="6" trace="B1_3" />
-      <node id="606756356280869691" at="106,0,107,0" concept="6" trace="B1_4" />
-      <node id="606756356280869696" at="107,0,108,0" concept="6" trace="B1_5" />
-      <node id="606756356280869716" at="108,0,109,0" concept="6" trace="B2_1" />
-      <node id="606756356280869717" at="109,0,110,0" concept="6" trace="B2_2" />
-      <node id="606756356280869718" at="110,0,111,0" concept="6" trace="B2_3" />
-      <node id="606756356280869719" at="111,0,112,0" concept="6" trace="B2_4" />
-      <node id="606756356280869720" at="112,0,113,0" concept="6" trace="B2_5" />
-      <node id="606756356280869757" at="113,0,114,0" concept="6" trace="B3_1" />
-      <node id="606756356280869758" at="114,0,115,0" concept="6" trace="B3_2" />
-      <node id="606756356280869759" at="115,0,116,0" concept="6" trace="B3_3" />
-      <node id="606756356280869760" at="116,0,117,0" concept="6" trace="B3_4" />
-      <node id="606756356280869761" at="117,0,118,0" concept="6" trace="B3_5" />
-      <node id="606756356280869787" at="118,0,119,0" concept="6" trace="B4_1" />
-      <node id="606756356280869788" at="119,0,120,0" concept="6" trace="B4_2" />
-      <node id="606756356280869789" at="120,0,121,0" concept="6" trace="B4_3" />
-      <node id="606756356280869790" at="121,0,122,0" concept="6" trace="B4_4" />
-      <node id="606756356280869791" at="122,0,123,0" concept="6" trace="B4_5" />
-      <node id="606756356280869824" at="123,0,124,0" concept="6" trace="B5_1" />
-      <node id="606756356280869825" at="124,0,125,0" concept="6" trace="B5_2" />
-      <node id="606756356280869826" at="125,0,126,0" concept="6" trace="B5_3" />
-      <node id="606756356280869827" at="126,0,127,0" concept="6" trace="B5_4" />
-      <node id="606756356280869828" at="127,0,128,0" concept="6" trace="B5_5" />
-      <node id="2969786042096224407" at="129,0,130,0" concept="6" trace="oper_mkLightUp" />
-      <node id="2969786042096224449" at="130,0,131,0" concept="6" trace="oper_mkLine" />
-      <node id="606756356280869595" at="131,0,132,0" concept="6" trace="oper_mkSightLine" />
-      <node id="8623100199798802085" at="132,0,133,0" concept="6" trace="oper__0" />
-      <node id="2969786042096224513" at="133,0,134,0" concept="6" trace="oper__1" />
-      <node id="2969786042096224532" at="134,0,135,0" concept="6" trace="oper__2" />
-      <node id="2969786042096224555" at="135,0,136,0" concept="6" trace="oper__3" />
-      <node id="2969786042096224578" at="136,0,137,0" concept="6" trace="oper__4" />
-      <node id="606756356280901302" at="137,0,138,0" concept="6" trace="oper__X" />
-      <node id="606756356281282228" at="138,0,139,0" concept="6" trace="oper__W" />
-      <node id="8623100199798826973" at="139,0,140,0" concept="6" trace="oper__B" />
-      <node id="606756356280870033" at="140,0,141,0" concept="6" trace="oper_CheckSightLine" />
-      <node id="8623100199798702168" at="141,0,142,0" concept="6" trace="oper_CheckAllSightLines" />
-      <node id="606756356281260184" at="142,0,143,0" concept="6" trace="oper_CheckBox" />
-      <node id="8623100199798801094" at="143,0,144,0" concept="6" trace="oper_CheckLamp" />
-      <node id="8623100199798928769" at="144,0,145,0" concept="6" trace="oper_CountLamp" />
-      <node id="8623100199799368687" at="145,0,146,0" concept="6" trace="oper_countAllLamps" />
-      <node id="606756356280869980" at="146,0,147,0" concept="6" trace="oper_CorrectPuzzle" />
-      <node id="606756356280870107" at="147,0,148,0" concept="6" trace="oper_Transpose" />
-      <node id="2969786042096224407" at="149,100,150,79" concept="3" />
-      <node id="2969786042096224449" at="152,84,153,68" concept="3" />
-      <node id="606756356280869595" at="155,52,156,51" concept="3" />
-      <node id="8623100199798802085" at="158,26,159,28" concept="3" />
-      <node id="2969786042096224513" at="161,26,162,28" concept="3" />
-      <node id="2969786042096224532" at="164,26,165,28" concept="3" />
-      <node id="2969786042096224555" at="167,26,168,28" concept="3" />
-      <node id="2969786042096224578" at="170,26,171,28" concept="3" />
-      <node id="606756356280901302" at="173,26,174,28" concept="3" />
-      <node id="606756356281282228" at="176,26,177,28" concept="3" />
-      <node id="8623100199798826973" at="179,26,180,28" concept="3" />
-      <node id="606756356280870033" at="182,50,183,49" concept="3" />
-      <node id="8623100199798702168" at="185,60,186,56" concept="3" />
-      <node id="606756356281260184" at="188,42,189,42" concept="3" />
-      <node id="8623100199798801094" at="191,53,192,49" concept="3" />
-      <node id="8623100199798928769" at="194,56,195,51" concept="3" />
-      <node id="8623100199799368687" at="197,55,198,51" concept="3" />
-      <node id="606756356280869980" at="200,55,201,51" concept="3" />
-      <node id="606756356280870107" at="203,54,204,50" concept="3" />
-      <node id="2969786042096211900" at="207,40,208,68" concept="1" />
-      <node id="606756356280951594" at="208,68,209,940" concept="1" />
-      <node id="8623100199798576786" at="209,940,210,873" concept="1" />
-      <node id="8623100199798701865" at="210,873,211,890" concept="1" />
-      <node id="8623100199798846553" at="211,890,212,330" concept="1" />
-      <node id="8623100199798955292" at="212,330,213,845" concept="1" />
-      <node id="8623100199799362438" at="213,845,214,830" concept="1" />
-      <node id="606756356280901431" at="214,830,215,1752" concept="1" />
-      <node id="2969786042096211900" at="218,42,219,68" concept="1" />
-      <node id="2969786042096211900" at="219,68,220,0" concept="5" />
-      <node id="2969786042096211900" at="220,0,221,46" concept="4" />
-      <node id="2969786042096211900" at="221,46,222,38" concept="1" />
-      <node id="2969786042096211935" at="222,38,223,25" concept="1" />
-      <node id="2969786042096235014" at="223,25,224,25" concept="1" />
-      <node id="2969786042096211900" at="224,25,225,0" concept="5" />
-      <node id="2969786042096211900" at="225,0,226,0" concept="5" />
-      <node id="2969786042096211900" at="226,0,227,22" concept="4" />
-      <node id="606756356281036446" at="227,22,228,0" concept="5" />
-      <node id="606756356281006000" at="228,0,229,895" concept="2" />
-      <node id="8623100199799598304" at="229,895,230,68" concept="2" />
-      <node id="606756356281132320" at="230,68,231,213" concept="1" />
+      <node id="9002538411981910316" at="103,0,104,0" concept="6" trace="AnyPuzzle" />
+      <node id="606756356280869662" at="104,0,105,0" concept="6" trace="B1_1" />
+      <node id="606756356280869684" at="105,0,106,0" concept="6" trace="B1_2" />
+      <node id="606756356280869687" at="106,0,107,0" concept="6" trace="B1_3" />
+      <node id="606756356280869691" at="107,0,108,0" concept="6" trace="B1_4" />
+      <node id="606756356280869696" at="108,0,109,0" concept="6" trace="B1_5" />
+      <node id="606756356280869716" at="109,0,110,0" concept="6" trace="B2_1" />
+      <node id="606756356280869717" at="110,0,111,0" concept="6" trace="B2_2" />
+      <node id="606756356280869718" at="111,0,112,0" concept="6" trace="B2_3" />
+      <node id="606756356280869719" at="112,0,113,0" concept="6" trace="B2_4" />
+      <node id="606756356280869720" at="113,0,114,0" concept="6" trace="B2_5" />
+      <node id="606756356280869757" at="114,0,115,0" concept="6" trace="B3_1" />
+      <node id="606756356280869758" at="115,0,116,0" concept="6" trace="B3_2" />
+      <node id="606756356280869759" at="116,0,117,0" concept="6" trace="B3_3" />
+      <node id="606756356280869760" at="117,0,118,0" concept="6" trace="B3_4" />
+      <node id="606756356280869761" at="118,0,119,0" concept="6" trace="B3_5" />
+      <node id="606756356280869787" at="119,0,120,0" concept="6" trace="B4_1" />
+      <node id="606756356280869788" at="120,0,121,0" concept="6" trace="B4_2" />
+      <node id="606756356280869789" at="121,0,122,0" concept="6" trace="B4_3" />
+      <node id="606756356280869790" at="122,0,123,0" concept="6" trace="B4_4" />
+      <node id="606756356280869791" at="123,0,124,0" concept="6" trace="B4_5" />
+      <node id="606756356280869824" at="124,0,125,0" concept="6" trace="B5_1" />
+      <node id="606756356280869825" at="125,0,126,0" concept="6" trace="B5_2" />
+      <node id="606756356280869826" at="126,0,127,0" concept="6" trace="B5_3" />
+      <node id="606756356280869827" at="127,0,128,0" concept="6" trace="B5_4" />
+      <node id="606756356280869828" at="128,0,129,0" concept="6" trace="B5_5" />
+      <node id="2969786042096224407" at="130,0,131,0" concept="6" trace="oper_mkLightUp" />
+      <node id="2969786042096224449" at="131,0,132,0" concept="6" trace="oper_mkLine" />
+      <node id="606756356280869595" at="132,0,133,0" concept="6" trace="oper_mkSightLine" />
+      <node id="8623100199798802085" at="133,0,134,0" concept="6" trace="oper__0" />
+      <node id="2969786042096224513" at="134,0,135,0" concept="6" trace="oper__1" />
+      <node id="2969786042096224532" at="135,0,136,0" concept="6" trace="oper__2" />
+      <node id="2969786042096224555" at="136,0,137,0" concept="6" trace="oper__3" />
+      <node id="2969786042096224578" at="137,0,138,0" concept="6" trace="oper__4" />
+      <node id="606756356280901302" at="138,0,139,0" concept="6" trace="oper__X" />
+      <node id="606756356281282228" at="139,0,140,0" concept="6" trace="oper__W" />
+      <node id="8623100199798826973" at="140,0,141,0" concept="6" trace="oper__B" />
+      <node id="606756356280870033" at="141,0,142,0" concept="6" trace="oper_CheckSightLine" />
+      <node id="8623100199798702168" at="142,0,143,0" concept="6" trace="oper_CheckAllSightLines" />
+      <node id="606756356281260184" at="143,0,144,0" concept="6" trace="oper_CheckBox" />
+      <node id="8623100199798801094" at="144,0,145,0" concept="6" trace="oper_CheckLamp" />
+      <node id="8623100199798928769" at="145,0,146,0" concept="6" trace="oper_CountLamp" />
+      <node id="8623100199799368687" at="146,0,147,0" concept="6" trace="oper_countAllLamps" />
+      <node id="606756356280869980" at="147,0,148,0" concept="6" trace="oper_CorrectPuzzle" />
+      <node id="606756356280870107" at="148,0,149,0" concept="6" trace="oper_Transpose" />
+      <node id="2969786042096224407" at="150,100,151,79" concept="3" />
+      <node id="2969786042096224449" at="153,84,154,68" concept="3" />
+      <node id="606756356280869595" at="156,52,157,51" concept="3" />
+      <node id="8623100199798802085" at="159,26,160,28" concept="3" />
+      <node id="2969786042096224513" at="162,26,163,28" concept="3" />
+      <node id="2969786042096224532" at="165,26,166,28" concept="3" />
+      <node id="2969786042096224555" at="168,26,169,28" concept="3" />
+      <node id="2969786042096224578" at="171,26,172,28" concept="3" />
+      <node id="606756356280901302" at="174,26,175,28" concept="3" />
+      <node id="606756356281282228" at="177,26,178,28" concept="3" />
+      <node id="8623100199798826973" at="180,26,181,28" concept="3" />
+      <node id="606756356280870033" at="183,50,184,49" concept="3" />
+      <node id="8623100199798702168" at="186,60,187,56" concept="3" />
+      <node id="606756356281260184" at="189,42,190,42" concept="3" />
+      <node id="8623100199798801094" at="192,53,193,49" concept="3" />
+      <node id="8623100199798928769" at="195,56,196,51" concept="3" />
+      <node id="8623100199799368687" at="198,55,199,51" concept="3" />
+      <node id="606756356280869980" at="201,55,202,51" concept="3" />
+      <node id="606756356280870107" at="204,54,205,50" concept="3" />
+      <node id="2969786042096211900" at="208,40,209,68" concept="1" />
+      <node id="9002538411982715162" at="209,68,210,752" concept="1" />
+      <node id="8623100199798576786" at="210,752,211,718" concept="1" />
+      <node id="8623100199798701865" at="211,718,212,1275" concept="1" />
+      <node id="8623100199798846553" at="212,1275,213,330" concept="1" />
+      <node id="8623100199798955292" at="213,330,214,845" concept="1" />
+      <node id="8623100199799362438" at="214,845,215,830" concept="1" />
+      <node id="606756356280901431" at="215,830,216,1752" concept="1" />
+      <node id="9002538411981896239" at="216,1752,217,275" concept="1" />
+      <node id="2969786042096211900" at="220,42,221,68" concept="1" />
+      <node id="2969786042096211900" at="221,68,222,0" concept="5" />
+      <node id="2969786042096211900" at="222,0,223,46" concept="4" />
+      <node id="2969786042096211900" at="223,46,224,38" concept="1" />
+      <node id="2969786042096211935" at="224,38,225,25" concept="1" />
+      <node id="2969786042096235014" at="225,25,226,25" concept="1" />
+      <node id="2969786042096211900" at="226,25,227,0" concept="5" />
+      <node id="2969786042096211900" at="227,0,228,0" concept="5" />
+      <node id="2969786042096211900" at="228,0,229,22" concept="4" />
+      <node id="606756356281036446" at="229,22,230,0" concept="5" />
+      <node id="606756356281006000" at="230,0,231,895" concept="2" />
+      <node id="9002538411982972763" at="231,895,232,0" concept="5" />
+      <node id="9002538411982972908" at="232,0,233,115" concept="1" />
       <node id="2969786042096224398" at="44,0,47,0" concept="0" trace="LightUp#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
       <node id="2969786042096224398" at="48,0,51,0" concept="0" trace="LightUp#(LActOne/runtime/model/Operator;null)V" />
       <node id="2969786042096224400" at="54,0,57,0" concept="0" trace="Line#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
@@ -136,33 +138,33 @@
       <node id="2969786042096224403" at="78,0,81,0" concept="0" trace="Box#(LActOne/runtime/model/Operator;null)V" />
       <node id="2969786042096247683" at="84,0,87,0" concept="0" trace="LightBulb#(LActOne/runtime/model/ITerm/Kind;Ljava/lang/String;)V" />
       <node id="2969786042096247683" at="88,0,91,0" concept="0" trace="LightBulb#(LActOne/runtime/model/Operator;null)V" />
-      <node id="2969786042096224407" at="149,0,152,0" concept="7" trace="mkLightUp#(LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;)LLightUp/LightUpModel/LightUpSpesification/LightUp;" />
-      <node id="2969786042096224449" at="152,0,155,0" concept="7" trace="mkLine#(LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;)LLightUp/LightUpModel/LightUpSpesification/Line;" />
-      <node id="606756356280869595" at="155,0,158,0" concept="7" trace="mkSightLine#(LLightUp/LightUpModel/LightUpSpesification/Line;)LLightUp/LightUpModel/LightUpSpesification/SightLine;" />
-      <node id="8623100199798802085" at="158,0,161,0" concept="7" trace="_0#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="2969786042096224513" at="161,0,164,0" concept="7" trace="_1#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="2969786042096224532" at="164,0,167,0" concept="7" trace="_2#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="2969786042096224555" at="167,0,170,0" concept="7" trace="_3#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="2969786042096224578" at="170,0,173,0" concept="7" trace="_4#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="606756356280901302" at="173,0,176,0" concept="7" trace="_X#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="606756356281282228" at="176,0,179,0" concept="7" trace="_W#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="8623100199798826973" at="179,0,182,0" concept="7" trace="_B#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
-      <node id="606756356280870033" at="182,0,185,0" concept="7" trace="CheckSightLine#(LLightUp/LightUpModel/LightUpSpesification/Line;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="8623100199798702168" at="185,0,188,0" concept="7" trace="CheckAllSightLines#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="606756356281260184" at="188,0,191,0" concept="7" trace="CheckBox#(LLightUp/LightUpModel/LightUpSpesification/Box;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="8623100199798801094" at="191,0,194,0" concept="7" trace="CheckLamp#(LLightUp/LightUpModel/LightUpSpesification/Box;LActOne/runtime/predefined/INTEGER/Int;)LActOne/runtime/predefined/INTEGER/Int;" />
-      <node id="8623100199798928769" at="194,0,197,0" concept="7" trace="CountLamp#(LLightUp/LightUpModel/LightUpSpesification/Line;LActOne/runtime/predefined/INTEGER/Int;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="8623100199799368687" at="197,0,200,0" concept="7" trace="countAllLamps#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="606756356280869980" at="200,0,203,0" concept="7" trace="CorrectPuzzle#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
-      <node id="606756356280870107" at="203,0,206,0" concept="7" trace="Transpose#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LLightUp/LightUpModel/LightUpSpesification/LightUp;" />
+      <node id="2969786042096224407" at="150,0,153,0" concept="7" trace="mkLightUp#(LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;LLightUp/LightUpModel/LightUpSpesification/Line;)LLightUp/LightUpModel/LightUpSpesification/LightUp;" />
+      <node id="2969786042096224449" at="153,0,156,0" concept="7" trace="mkLine#(LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;LLightUp/LightUpModel/LightUpSpesification/Box;)LLightUp/LightUpModel/LightUpSpesification/Line;" />
+      <node id="606756356280869595" at="156,0,159,0" concept="7" trace="mkSightLine#(LLightUp/LightUpModel/LightUpSpesification/Line;)LLightUp/LightUpModel/LightUpSpesification/SightLine;" />
+      <node id="8623100199798802085" at="159,0,162,0" concept="7" trace="_0#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="2969786042096224513" at="162,0,165,0" concept="7" trace="_1#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="2969786042096224532" at="165,0,168,0" concept="7" trace="_2#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="2969786042096224555" at="168,0,171,0" concept="7" trace="_3#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="2969786042096224578" at="171,0,174,0" concept="7" trace="_4#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="606756356280901302" at="174,0,177,0" concept="7" trace="_X#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="606756356281282228" at="177,0,180,0" concept="7" trace="_W#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="8623100199798826973" at="180,0,183,0" concept="7" trace="_B#()LLightUp/LightUpModel/LightUpSpesification/Box;" />
+      <node id="606756356280870033" at="183,0,186,0" concept="7" trace="CheckSightLine#(LLightUp/LightUpModel/LightUpSpesification/Line;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8623100199798702168" at="186,0,189,0" concept="7" trace="CheckAllSightLines#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="606756356281260184" at="189,0,192,0" concept="7" trace="CheckBox#(LLightUp/LightUpModel/LightUpSpesification/Box;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8623100199798801094" at="192,0,195,0" concept="7" trace="CheckLamp#(LLightUp/LightUpModel/LightUpSpesification/Box;LActOne/runtime/predefined/INTEGER/Int;)LActOne/runtime/predefined/INTEGER/Int;" />
+      <node id="8623100199798928769" at="195,0,198,0" concept="7" trace="CountLamp#(LLightUp/LightUpModel/LightUpSpesification/Line;LActOne/runtime/predefined/INTEGER/Int;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="8623100199799368687" at="198,0,201,0" concept="7" trace="countAllLamps#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="606756356280869980" at="201,0,204,0" concept="7" trace="CorrectPuzzle#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LActOne/runtime/predefined/BOOLEAN/Bool;" />
+      <node id="606756356280870107" at="204,0,207,0" concept="7" trace="Transpose#(LLightUp/LightUpModel/LightUpSpesification/LightUp;)LLightUp/LightUpModel/LightUpSpesification/LightUp;" />
       <node id="2969786042096211935" at="17,0,21,0" concept="7" trace="dummy_BOOLEAN#()Ljava/lang/Object;" />
       <node id="2969786042096235014" at="21,0,25,0" concept="7" trace="dummy_INTEGER#()Ljava/lang/Object;" />
       <node id="2969786042096211900" at="25,0,29,0" concept="7" trace="dummy_bool#()LActOne/runtime/predefined/BOOLEAN/Bool;" />
       <node id="2969786042096211900" at="29,0,33,0" concept="7" trace="dummy_int#()LActOne/runtime/predefined/INTEGER/Int;" />
       <node id="2969786042096211900" at="33,0,37,0" concept="7" trace="dummy_string#()LActOne/runtime/predefined/STRING/String;" />
       <node id="2969786042096211900" at="37,0,41,0" concept="7" trace="dummy_any#()LActOne/runtime/predefined/ANY/Any;" />
-      <node id="2969786042096211900" at="207,0,217,0" concept="7" trace="initAxioms#()V" />
-      <node id="2969786042096211900" at="218,0,233,0" concept="7" trace="main#([Ljava/lang/String;)V" />
+      <node id="2969786042096211900" at="208,0,219,0" concept="7" trace="initAxioms#()V" />
+      <node id="2969786042096211900" at="220,0,235,0" concept="7" trace="main#([Ljava/lang/String;)V" />
       <scope id="2969786042096224398" at="44,50,45,24" />
       <scope id="2969786042096224398" at="48,56,49,30" />
       <scope id="2969786042096224400" at="54,47,55,24" />
@@ -173,25 +175,25 @@
       <scope id="2969786042096224403" at="78,52,79,30" />
       <scope id="2969786042096247683" at="84,52,85,24" />
       <scope id="2969786042096247683" at="88,58,89,30" />
-      <scope id="2969786042096224407" at="149,100,150,79" />
-      <scope id="2969786042096224449" at="152,84,153,68" />
-      <scope id="606756356280869595" at="155,52,156,51" />
-      <scope id="8623100199798802085" at="158,26,159,28" />
-      <scope id="2969786042096224513" at="161,26,162,28" />
-      <scope id="2969786042096224532" at="164,26,165,28" />
-      <scope id="2969786042096224555" at="167,26,168,28" />
-      <scope id="2969786042096224578" at="170,26,171,28" />
-      <scope id="606756356280901302" at="173,26,174,28" />
-      <scope id="606756356281282228" at="176,26,177,28" />
-      <scope id="8623100199798826973" at="179,26,180,28" />
-      <scope id="606756356280870033" at="182,50,183,49" />
-      <scope id="8623100199798702168" at="185,60,186,56" />
-      <scope id="606756356281260184" at="188,42,189,42" />
-      <scope id="8623100199798801094" at="191,53,192,49" />
-      <scope id="8623100199798928769" at="194,56,195,51" />
-      <scope id="8623100199799368687" at="197,55,198,51" />
-      <scope id="606756356280869980" at="200,55,201,51" />
-      <scope id="606756356280870107" at="203,54,204,50" />
+      <scope id="2969786042096224407" at="150,100,151,79" />
+      <scope id="2969786042096224449" at="153,84,154,68" />
+      <scope id="606756356280869595" at="156,52,157,51" />
+      <scope id="8623100199798802085" at="159,26,160,28" />
+      <scope id="2969786042096224513" at="162,26,163,28" />
+      <scope id="2969786042096224532" at="165,26,166,28" />
+      <scope id="2969786042096224555" at="168,26,169,28" />
+      <scope id="2969786042096224578" at="171,26,172,28" />
+      <scope id="606756356280901302" at="174,26,175,28" />
+      <scope id="606756356281282228" at="177,26,178,28" />
+      <scope id="8623100199798826973" at="180,26,181,28" />
+      <scope id="606756356280870033" at="183,50,184,49" />
+      <scope id="8623100199798702168" at="186,60,187,56" />
+      <scope id="606756356281260184" at="189,42,190,42" />
+      <scope id="8623100199798801094" at="192,53,193,49" />
+      <scope id="8623100199798928769" at="195,56,196,51" />
+      <scope id="8623100199799368687" at="198,55,199,51" />
+      <scope id="606756356280869980" at="201,55,202,51" />
+      <scope id="606756356280870107" at="204,54,205,50" />
       <scope id="2969786042096211935" at="17,40,19,16" />
       <scope id="2969786042096235014" at="21,40,23,16" />
       <scope id="2969786042096211900" at="25,43,27,16" />
@@ -238,55 +240,55 @@
         <var name="operator" id="2969786042096247683" />
         <var name="params" id="2969786042096247683" />
       </scope>
-      <scope id="2969786042096224407" at="149,0,152,0">
+      <scope id="2969786042096224407" at="150,0,153,0">
         <var name="Line_0" id="2969786042096224412" />
         <var name="Line_1" id="2969786042096224415" />
         <var name="Line_2" id="2969786042096224421" />
         <var name="Line_3" id="2969786042096224428" />
         <var name="Line_4" id="2969786042096224436" />
       </scope>
-      <scope id="2969786042096224449" at="152,0,155,0">
+      <scope id="2969786042096224449" at="153,0,156,0">
         <var name="Box_0" id="2969786042096224469" />
         <var name="Box_1" id="2969786042096224472" />
         <var name="Box_2" id="2969786042096224487" />
         <var name="Box_3" id="2969786042096224502" />
         <var name="Box_4" id="2969786042096224494" />
       </scope>
-      <scope id="606756356280869595" at="155,0,158,0">
+      <scope id="606756356280869595" at="156,0,159,0">
         <var name="Line_5" id="606756356280869624" />
       </scope>
-      <scope id="8623100199798802085" at="158,0,161,0" />
-      <scope id="2969786042096224513" at="161,0,164,0" />
-      <scope id="2969786042096224532" at="164,0,167,0" />
-      <scope id="2969786042096224555" at="167,0,170,0" />
-      <scope id="2969786042096224578" at="170,0,173,0" />
-      <scope id="606756356280901302" at="173,0,176,0" />
-      <scope id="606756356281282228" at="176,0,179,0" />
-      <scope id="8623100199798826973" at="179,0,182,0" />
-      <scope id="606756356280870033" at="182,0,185,0">
+      <scope id="8623100199798802085" at="159,0,162,0" />
+      <scope id="2969786042096224513" at="162,0,165,0" />
+      <scope id="2969786042096224532" at="165,0,168,0" />
+      <scope id="2969786042096224555" at="168,0,171,0" />
+      <scope id="2969786042096224578" at="171,0,174,0" />
+      <scope id="606756356280901302" at="174,0,177,0" />
+      <scope id="606756356281282228" at="177,0,180,0" />
+      <scope id="8623100199798826973" at="180,0,183,0" />
+      <scope id="606756356280870033" at="183,0,186,0">
         <var name="Line_6" id="606756356280870068" />
       </scope>
-      <scope id="8623100199798702168" at="185,0,188,0">
+      <scope id="8623100199798702168" at="186,0,189,0">
         <var name="LightUp_0" id="8623100199798702216" />
       </scope>
-      <scope id="606756356281260184" at="188,0,191,0">
+      <scope id="606756356281260184" at="189,0,192,0">
         <var name="Box_5" id="606756356281262115" />
       </scope>
-      <scope id="8623100199798801094" at="191,0,194,0">
+      <scope id="8623100199798801094" at="192,0,195,0">
         <var name="Box_6" id="8623100199798817448" />
         <var name="Int_0" id="8623100199798912688" />
       </scope>
-      <scope id="8623100199798928769" at="194,0,197,0">
+      <scope id="8623100199798928769" at="195,0,198,0">
         <var name="Int_1" id="8623100199798928834" />
         <var name="Line_7" id="8623100199798928829" />
       </scope>
-      <scope id="8623100199799368687" at="197,0,200,0">
+      <scope id="8623100199799368687" at="198,0,201,0">
         <var name="LightUp_1" id="8623100199799368748" />
       </scope>
-      <scope id="606756356280869980" at="200,0,203,0">
+      <scope id="606756356280869980" at="201,0,204,0">
         <var name="LightUp_2" id="606756356280870016" />
       </scope>
-      <scope id="606756356280870107" at="203,0,206,0">
+      <scope id="606756356280870107" at="204,0,207,0">
         <var name="LightUp_3" id="606756356280870149" />
       </scope>
       <scope id="2969786042096211935" at="17,0,21,0" />
@@ -295,13 +297,12 @@
       <scope id="2969786042096211900" at="29,0,33,0" />
       <scope id="2969786042096211900" at="33,0,37,0" />
       <scope id="2969786042096211900" at="37,0,41,0" />
-      <scope id="2969786042096211900" at="207,40,215,1752" />
-      <scope id="2969786042096211900" at="207,0,217,0" />
-      <scope id="2969786042096211900" at="218,42,231,213">
+      <scope id="2969786042096211900" at="208,40,217,275" />
+      <scope id="2969786042096211900" at="208,0,219,0" />
+      <scope id="2969786042096211900" at="220,42,233,115">
         <var name="test1" id="606756356281006000" />
-        <var name="test2" id="8623100199799598304" />
       </scope>
-      <scope id="2969786042096211900" at="218,0,233,0">
+      <scope id="2969786042096211900" at="220,0,235,0">
         <var name="args" id="2969786042096211900" />
       </scope>
       <unit id="2969786042096224398" at="42,0,52,0" name="LightUp.LightUpModel.LightUpSpesification$LightUp" />
@@ -309,7 +310,7 @@
       <unit id="606756356280869589" at="62,0,72,0" name="LightUp.LightUpModel.LightUpSpesification$SightLine" />
       <unit id="2969786042096224403" at="72,0,82,0" name="LightUp.LightUpModel.LightUpSpesification$Box" />
       <unit id="2969786042096247683" at="82,0,92,0" name="LightUp.LightUpModel.LightUpSpesification$LightBulb" />
-      <unit id="2969786042096211900" at="15,0,235,0" name="LightUp.LightUpModel.LightUpSpesification" />
+      <unit id="2969786042096211900" at="15,0,237,0" name="LightUp.LightUpModel.LightUpSpesification" />
     </file>
   </root>
 </debug-info>
