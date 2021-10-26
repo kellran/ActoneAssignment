@@ -66,9 +66,6 @@
       <concept id="7333886121707328801" name="ActOne.structure.Let" flags="ng" index="1mjQuN">
         <child id="7333886121707328825" name="storeTerm" index="1mjQuF" />
       </concept>
-      <concept id="7333886121707328804" name="ActOne.structure.LetReference" flags="ng" index="1mjQuQ">
-        <reference id="7333886121707328805" name="reference" index="1mjQuR" />
-      </concept>
       <concept id="7911722725550616649" name="ActOne.structure.VariableReference" flags="ng" index="3O66mJ">
         <reference id="7911722725550616650" name="variableRef" index="3O66mG" />
       </concept>
@@ -131,7 +128,7 @@
             <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
           </node>
           <node concept="pQlao" id="2FUPBXDn4xw" role="EZGxL">
-            <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
+            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
           </node>
         </node>
         <node concept="pQlao" id="7uFpZ7fAH0D" role="EZGxL">
@@ -155,7 +152,7 @@
         <node concept="pQlao" id="7uFpZ7fAHs7" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3Kz1" resolve="mkLine" />
           <node concept="pQlao" id="7uFpZ7fAHs8" role="EZGxL">
-            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+            <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
           </node>
           <node concept="pQlao" id="7uFpZ7fAHs9" role="EZGxL">
             <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
@@ -172,14 +169,14 @@
         </node>
         <node concept="pQlao" id="7uFpZ7fAHEB" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3Kz1" resolve="mkLine" />
-          <node concept="pQlao" id="7uFpZ7fAHEC" role="EZGxL">
-            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+          <node concept="pQlao" id="2mBHlEJ4OdT" role="EZGxL">
+            <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
           </node>
           <node concept="pQlao" id="7uFpZ7fAHED" role="EZGxL">
-            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+            <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
           </node>
           <node concept="pQlao" id="7uFpZ7fAHEE" role="EZGxL">
-            <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
+            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
           </node>
           <node concept="pQlao" id="7uFpZ7fAHEF" role="EZGxL">
             <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
@@ -191,7 +188,7 @@
         <node concept="pQlao" id="7uFpZ7fAHTD" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3Kz1" resolve="mkLine" />
           <node concept="pQlao" id="7uFpZ7fAHTE" role="EZGxL">
-            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+            <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
           </node>
           <node concept="pQlao" id="7uFpZ7fAHTF" role="EZGxL">
             <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
@@ -208,18 +205,53 @@
         </node>
       </node>
     </node>
-    <node concept="3DQ70j" id="7NJsfNV3qXf" role="lGtFl">
+    <node concept="3DQ70j" id="2mBHlEIZcst" role="lGtFl">
       <property role="3V$3am" value="actions" />
       <property role="3V$3ak" value="b4fcd96f-fa06-46a4-9520-beaeb32aa9a1/8445081754001417286/6849908093511409942" />
     </node>
-    <node concept="rdghn" id="7NJsfNV3utr" role="YRu88" />
-    <node concept="YRuf3" id="7NJsfNV3uvG" role="YRu88">
+    <node concept="1mjQuN" id="2mBHlEIYZ2v" role="YRu88">
+      <property role="TrG5h" value="test2" />
+      <node concept="pQlao" id="2mBHlEIYZ36" role="1mjQuF">
+        <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
+        <node concept="pQlao" id="2mBHlEIYZ3b" role="EZGxL">
+          <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+        </node>
+        <node concept="pQlao" id="2mBHlEIZ2GE" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
+        </node>
+        <node concept="pQlao" id="2mBHlEIZ58q" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$1" resolve="_1" />
+        </node>
+        <node concept="pQlao" id="2mBHlEIZ8Mc" role="EZGxL">
+          <ref role="pQlar" node="xFCr3TllUQ" resolve="_X" />
+        </node>
+        <node concept="pQlao" id="2mBHlEIZbej" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
+        </node>
+      </node>
+    </node>
+    <node concept="YRuf3" id="2mBHlEIZctM" role="YRu88">
       <property role="1lq2J7" value="0" />
       <property role="1lgsvm" value="true" />
-      <node concept="pQlao" id="2FUPBXDeG7I" role="YRufA">
-        <ref role="pQlar" node="2FUPBXDeDzr" resolve="CountBulbsInPuzzle" />
-        <node concept="1mjQuQ" id="2FUPBXDeGTG" role="EZGxL">
-          <ref role="1mjQuR" node="xFCr3TlJuK" resolve="test1" />
+      <node concept="pQlao" id="2mBHlEJ58Eu" role="YRufA">
+        <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
+        <node concept="pQlao" id="2mBHlEJ5jBY" role="EZGxL">
+          <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
+          <node concept="pQlao" id="2mBHlEJeK5u" role="EZGxL">
+            <ref role="pQlar" node="xFCr3TllUQ" resolve="_X" />
+          </node>
+          <node concept="pQlao" id="2mBHlEJeLIJ" role="EZGxL">
+            <ref role="pQlar" node="xFCr3TllUQ" resolve="_X" />
+          </node>
+          <node concept="pQlao" id="2mBHlEJeNo7" role="EZGxL">
+            <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+          </node>
+          <node concept="pQlao" id="2mBHlEJePQl" role="EZGxL">
+            <ref role="pQlar" node="2$QNaIM3K_2" resolve="_4" />
+          </node>
+          <node concept="pQlao" id="2mBHlEJeSl1" role="EZGxL">
+            <ref role="pQlar" node="2$QNaIM3K$F" resolve="_3" />
+          </node>
         </node>
       </node>
     </node>
@@ -679,29 +711,29 @@
     </node>
     <node concept="2a5yee" id="24BWV2GKi7K" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKifS" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKifZ" role="EZGxL">
           <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKku$" role="2a5y9N">
-        <property role="p6XkA" value="1" />
+        <property role="p6XkA" value="0" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GKl8J" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKl8K" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKl8L" role="EZGxL">
           <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKl8M" role="2a5y9N">
-        <property role="p6XkA" value="0" />
+        <property role="p6XkA" value="1" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GKn1v" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKn1w" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKn1x" role="EZGxL">
           <ref role="pQlar" node="xFCr3TllUQ" resolve="_X" />
         </node>
@@ -712,7 +744,7 @@
     </node>
     <node concept="2a5yee" id="24BWV2GLfVn" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GLg1C" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GLgtL" role="EZGxL">
           <ref role="pQlar" node="24BWV2GLgsj" resolve="_G" />
         </node>
@@ -723,7 +755,7 @@
     </node>
     <node concept="2a5yee" id="24BWV2GKo2e" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKo2f" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKo2g" role="EZGxL">
           <ref role="pQlar" node="7uFpZ7fASq_" resolve="_0" />
         </node>
@@ -734,51 +766,51 @@
     </node>
     <node concept="2a5yee" id="24BWV2GKo9n" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKo9o" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKo9p" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3K$1" resolve="_1" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKo9q" role="2a5y9N">
-        <property role="p6XkA" value="1" />
+        <property role="p6XkA" value="0" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GKog$" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKog_" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKogA" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKogB" role="2a5y9N">
-        <property role="p6XkA" value="2" />
+        <property role="p6XkA" value="0" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GKonP" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKonQ" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKonR" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3K$F" resolve="_3" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKonS" role="2a5y9N">
-        <property role="p6XkA" value="3" />
+        <property role="p6XkA" value="0" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GKova" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GKovb" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GKovc" role="EZGxL">
           <ref role="pQlar" node="2$QNaIM3K_2" resolve="_4" />
         </node>
       </node>
       <node concept="2GQ0ll" id="24BWV2GKovd" role="2a5y9N">
-        <property role="p6XkA" value="4" />
+        <property role="p6XkA" value="0" />
       </node>
     </node>
     <node concept="2a5yee" id="24BWV2GMtIq" role="pRMhZ">
       <node concept="pQlao" id="24BWV2GMtNh" role="2a5y9Q">
-        <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
+        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
         <node concept="pQlao" id="24BWV2GMtNo" role="EZGxL">
           <ref role="pQlar" node="5PT82VHkswI" resolve="OutOfBounds" />
         </node>
@@ -897,168 +929,351 @@
         <property role="p6XkA" value="0" />
       </node>
     </node>
-    <node concept="3DQ70j" id="2FUPBXDg1xN" role="lGtFl">
+    <node concept="2a5yee" id="2mBHlEJ6iaG" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6iaH" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iaI" role="EZGxL">
+          <ref role="pQlar" node="7uFpZ7fAYvt" resolve="_B" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6iaJ" role="2a5y9N">
+        <property role="p6XkA" value="1" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6iaK" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6iaL" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iaM" role="EZGxL">
+          <ref role="pQlar" node="xFCr3TmMUO" resolve="_W" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6iaN" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6iaO" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6iaP" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iaQ" role="EZGxL">
+          <ref role="pQlar" node="xFCr3TllUQ" resolve="_X" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6iaR" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6iaS" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6iaT" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iaU" role="EZGxL">
+          <ref role="pQlar" node="24BWV2GLgsj" resolve="_G" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6iaV" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6iaW" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6iaX" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iaY" role="EZGxL">
+          <ref role="pQlar" node="7uFpZ7fASq_" resolve="_0" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6iaZ" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6ib0" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6ib1" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6ib2" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$1" resolve="_1" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6ib3" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6ib4" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6ib5" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6ib6" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6ib7" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6ib8" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6ib9" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6iba" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K$F" resolve="_3" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6ibb" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6ibc" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6ibd" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6ibe" role="EZGxL">
+          <ref role="pQlar" node="2$QNaIM3K_2" resolve="_4" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6ibf" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ6ibg" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ6ibh" role="2a5y9Q">
+        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+        <node concept="pQlao" id="2mBHlEJ6ibi" role="EZGxL">
+          <ref role="pQlar" node="5PT82VHkswI" resolve="OutOfBounds" />
+        </node>
+      </node>
+      <node concept="2GQ0ll" id="2mBHlEJ6ibj" role="2a5y9N">
+        <property role="p6XkA" value="0" />
+      </node>
+    </node>
+    <node concept="3DQ70j" id="2mBHlEJ1G8M" role="lGtFl">
       <property role="3V$3am" value="axioms" />
       <property role="3V$3ak" value="b4fcd96f-fa06-46a4-9520-beaeb32aa9a1/8445081754001417286/6300386900480908542" />
     </node>
-    <node concept="2a5yee" id="2FUPBXDmbPH" role="pRMhZ">
-      <node concept="pQlao" id="2FUPBXDmcq_" role="2a5y9N">
+    <node concept="3DQ70j" id="2mBHlEJ6ya_" role="lGtFl">
+      <property role="3V$3am" value="axioms" />
+      <property role="3V$3ak" value="b4fcd96f-fa06-46a4-9520-beaeb32aa9a1/8445081754001417286/6300386900480908542" />
+    </node>
+    <node concept="2a5yee" id="2mBHlEJ8$h8" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ8$w3" role="2a5y9N">
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
-        <node concept="pQlao" id="2FUPBXDmdbh" role="EZGxL">
+        <node concept="pQlao" id="2mBHlEJ8_oT" role="EZGxL">
           <ref role="pQlar" to="zaie:34Rb5Oc3jwP" resolve="Not" />
-          <node concept="pQlao" id="2FUPBXDml$H" role="EZGxL">
+          <node concept="pQlao" id="2mBHlEJ8_oU" role="EZGxL">
             <ref role="pQlar" to="zaie:34Rb5OcqR1j" resolve="Or" />
-            <node concept="pQlao" id="2FUPBXDmnR6" role="EZGxL">
+            <node concept="pQlao" id="2mBHlEJ8_oV" role="EZGxL">
               <ref role="pQlar" to="zaie:34Rb5OcqR1j" resolve="Or" />
-              <node concept="pQlao" id="2FUPBXDmoBV" role="EZGxL">
+              <node concept="pQlao" id="2mBHlEJ8_oW" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
-                <node concept="3O66mJ" id="2FUPBXDmpoM" role="EZGxL">
+                <node concept="3O66mJ" id="2mBHlEJ8_oX" role="EZGxL">
                   <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
                 </node>
-                <node concept="pQlao" id="2FUPBXDmqUG" role="EZGxL">
+                <node concept="pQlao" id="2mBHlEJ8_oY" role="EZGxL">
                   <ref role="pQlar" node="7uFpZ7fASq_" resolve="_0" />
                 </node>
               </node>
-              <node concept="pQlao" id="2FUPBXDmssU" role="EZGxL">
+              <node concept="pQlao" id="2mBHlEJ8_oZ" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
-                <node concept="3O66mJ" id="2FUPBXDmssV" role="EZGxL">
+                <node concept="3O66mJ" id="2mBHlEJ8_p0" role="EZGxL">
                   <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
                 </node>
-                <node concept="pQlao" id="2FUPBXDmssW" role="EZGxL">
+                <node concept="pQlao" id="2mBHlEJ8_p1" role="EZGxL">
                   <ref role="pQlar" node="2$QNaIM3K$1" resolve="_1" />
                 </node>
               </node>
             </node>
-            <node concept="pQlao" id="2FUPBXDmuL0" role="EZGxL">
+            <node concept="pQlao" id="2mBHlEJ8_p2" role="EZGxL">
               <ref role="pQlar" to="zaie:34Rb5OcqR1j" resolve="Or" />
-              <node concept="pQlao" id="2FUPBXDmvyv" role="EZGxL">
+              <node concept="pQlao" id="2mBHlEJ8_p3" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
-                <node concept="3O66mJ" id="2FUPBXDmvyw" role="EZGxL">
+                <node concept="3O66mJ" id="2mBHlEJ8_p4" role="EZGxL">
                   <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
                 </node>
-                <node concept="pQlao" id="2FUPBXDmvyx" role="EZGxL">
+                <node concept="pQlao" id="2mBHlEJ8_p5" role="EZGxL">
                   <ref role="pQlar" node="2$QNaIM3K$k" resolve="_2" />
                 </node>
               </node>
-              <node concept="pQlao" id="2FUPBXDmxRe" role="EZGxL">
-                <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
-                <node concept="3O66mJ" id="2FUPBXDmxRf" role="EZGxL">
-                  <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+              <node concept="pQlao" id="2mBHlEJ8_p6" role="EZGxL">
+                <ref role="pQlar" to="zaie:34Rb5OcqR1j" resolve="Or" />
+                <node concept="pQlao" id="2mBHlEJ8_p7" role="EZGxL">
+                  <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
+                  <node concept="3O66mJ" id="2mBHlEJ8_p8" role="EZGxL">
+                    <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+                  </node>
+                  <node concept="pQlao" id="2mBHlEJeDnc" role="EZGxL">
+                    <ref role="pQlar" node="2$QNaIM3K$F" resolve="_3" />
+                  </node>
                 </node>
-                <node concept="pQlao" id="2FUPBXDmxRg" role="EZGxL">
-                  <ref role="pQlar" node="2$QNaIM3K$F" resolve="_3" />
+                <node concept="pQlao" id="2mBHlEJ8_pa" role="EZGxL">
+                  <ref role="pQlar" to="zaie:34Rb5Oc3jx3" resolve="Equal" />
+                  <node concept="3O66mJ" id="2mBHlEJ8_pb" role="EZGxL">
+                    <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+                  </node>
+                  <node concept="pQlao" id="2mBHlEJeCyh" role="EZGxL">
+                    <ref role="pQlar" node="2$QNaIM3K_2" resolve="_4" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="pQlao" id="2FUPBXDm$cL" role="EZGxL">
+        <node concept="pQlao" id="2mBHlEJ8BdU" role="EZGxL">
           <ref role="pQlar" to="zaie:34Rb5Oc3jw_" resolve="True" />
         </node>
-        <node concept="pQlao" id="2FUPBXDmAyY" role="EZGxL">
-          <property role="3IYp45" value="true" />
-          <ref role="pQlar" to="zaie:34Rb5Oc3jwP" resolve="Not" />
-          <node concept="pQlao" id="2FUPBXDmAyZ" role="EZGxL">
-            <ref role="pQlar" to="zaie:1jOgEPzVaby" resolve="GR" />
-            <node concept="pQlao" id="2FUPBXDmAz0" role="EZGxL">
-              <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
-              <node concept="pQlao" id="2FUPBXDmAz1" role="EZGxL">
+        <node concept="pQlao" id="2mBHlEJ92Ld" role="EZGxL">
+          <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
+          <node concept="pQlao" id="2mBHlEJb3M0" role="EZGxL">
+            <ref role="pQlar" to="zaie:34Rb5OcqR1j" resolve="Or" />
+            <node concept="pQlao" id="2mBHlEJb4$f" role="EZGxL">
+              <ref role="pQlar" to="zaie:1jOgEPzVaby" resolve="GR" />
+              <node concept="pQlao" id="2mBHlEJbfDp" role="EZGxL">
                 <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
-                <node concept="pQlao" id="2FUPBXDmAz2" role="EZGxL">
-                  <ref role="pQlar" to="zaie:NKAPmWF8$5" resolve="SUB" />
-                  <node concept="pQlao" id="2FUPBXDmAz3" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
-                    <node concept="3O66mJ" id="2FUPBXDmAz4" role="EZGxL">
+                <node concept="pQlao" id="2mBHlEJbgse" role="EZGxL">
+                  <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                  <node concept="pQlao" id="2mBHlEJbhf8" role="EZGxL">
+                    <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                    <node concept="3O66mJ" id="2mBHlEJbi1Z" role="EZGxL">
                       <ref role="3O66mG" node="2FUPBXDcscQ" resolve="Over" />
                     </node>
                   </node>
-                  <node concept="pQlao" id="2FUPBXDmAz5" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
-                    <node concept="3O66mJ" id="2FUPBXDmAz6" role="EZGxL">
-                      <ref role="3O66mG" node="2FUPBXDcscQ" resolve="Over" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="pQlao" id="2FUPBXDmAz7" role="EZGxL">
-                  <ref role="pQlar" to="zaie:NKAPmWF8$5" resolve="SUB" />
-                  <node concept="pQlao" id="2FUPBXDmAz8" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
-                    <node concept="3O66mJ" id="2FUPBXDmAz9" role="EZGxL">
-                      <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
-                    </node>
-                  </node>
-                  <node concept="pQlao" id="2FUPBXDmAza" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
-                    <node concept="3O66mJ" id="2FUPBXDmAzb" role="EZGxL">
-                      <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="pQlao" id="2FUPBXDmAzc" role="EZGxL">
-                <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
-                <node concept="pQlao" id="2FUPBXDmAzd" role="EZGxL">
-                  <ref role="pQlar" to="zaie:NKAPmWF8$5" resolve="SUB" />
-                  <node concept="pQlao" id="2FUPBXDmAze" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
-                    <node concept="3O66mJ" id="2FUPBXDmAzf" role="EZGxL">
-                      <ref role="3O66mG" node="2FUPBXDcu$V" resolve="Under" />
-                    </node>
-                  </node>
-                  <node concept="pQlao" id="2FUPBXDmAzg" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
-                    <node concept="3O66mJ" id="2FUPBXDmAzh" role="EZGxL">
+                  <node concept="pQlao" id="2mBHlEJbjC3" role="EZGxL">
+                    <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                    <node concept="3O66mJ" id="2mBHlEJbkr7" role="EZGxL">
                       <ref role="3O66mG" node="2FUPBXDcu$V" resolve="Under" />
                     </node>
                   </node>
                 </node>
-                <node concept="pQlao" id="2FUPBXDmAzi" role="EZGxL">
-                  <ref role="pQlar" to="zaie:NKAPmWF8$5" resolve="SUB" />
-                  <node concept="pQlao" id="2FUPBXDmAzj" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
-                    <node concept="3O66mJ" id="2FUPBXDmAzk" role="EZGxL">
-                      <ref role="3O66mG" node="2FUPBXDcvKZ" resolve="Left" />
+                <node concept="pQlao" id="2mBHlEJbm1y" role="EZGxL">
+                  <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                  <node concept="pQlao" id="2mBHlEJbmON" role="EZGxL">
+                    <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                    <node concept="3O66mJ" id="2mBHlEJbnC0" role="EZGxL">
+                      <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
                     </node>
                   </node>
-                  <node concept="pQlao" id="2FUPBXDmAzl" role="EZGxL">
-                    <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
-                    <node concept="3O66mJ" id="2FUPBXDmAzm" role="EZGxL">
+                  <node concept="pQlao" id="2mBHlEJbpeF" role="EZGxL">
+                    <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                    <node concept="3O66mJ" id="2mBHlEJbq25" role="EZGxL">
                       <ref role="3O66mG" node="2FUPBXDcvKZ" resolve="Left" />
                     </node>
                   </node>
                 </node>
               </node>
-            </node>
-            <node concept="pQlao" id="2FUPBXDmAzn" role="EZGxL">
-              <ref role="pQlar" node="24BWV2GKieA" resolve="CountAny" />
-              <node concept="3O66mJ" id="2FUPBXDmAzo" role="EZGxL">
-                <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+              <node concept="pQlao" id="2mBHlEJbqPw" role="EZGxL">
+                <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
+                <node concept="3O66mJ" id="2mBHlEJbrD6" role="EZGxL">
+                  <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+                </node>
               </node>
             </node>
+            <node concept="pQlao" id="2mBHlEJdLgx" role="EZGxL">
+              <ref role="pQlar" to="zaie:34Rb5Oc3jwP" resolve="Not" />
+              <node concept="pQlao" id="2mBHlEJdM41" role="EZGxL">
+                <ref role="pQlar" to="zaie:1jOgEPzVaby" resolve="GR" />
+                <node concept="pQlao" id="2mBHlEJdMRr" role="EZGxL">
+                  <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                  <node concept="pQlao" id="2mBHlEJdNEM" role="EZGxL">
+                    <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                    <node concept="pQlao" id="2mBHlEJdOub" role="EZGxL">
+                      <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                      <node concept="pQlao" id="2mBHlEJdPhF" role="EZGxL">
+                        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                        <node concept="3O66mJ" id="2mBHlEJdQ58" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcscQ" resolve="Over" />
+                        </node>
+                      </node>
+                      <node concept="pQlao" id="2mBHlEJdSvM" role="EZGxL">
+                        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
+                        <node concept="3O66mJ" id="2mBHlEJdTjs" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcscQ" resolve="Over" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="pQlao" id="2mBHlEJdVIG" role="EZGxL">
+                      <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                      <node concept="pQlao" id="2mBHlEJdWyz" role="EZGxL">
+                        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                        <node concept="3O66mJ" id="2mBHlEJdXmm" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcu$V" resolve="Under" />
+                        </node>
+                      </node>
+                      <node concept="pQlao" id="2mBHlEJdYYd" role="EZGxL">
+                        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
+                        <node concept="3O66mJ" id="2mBHlEJdZMd" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcu$V" resolve="Under" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="pQlao" id="2mBHlEJe1qF" role="EZGxL">
+                    <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                    <node concept="pQlao" id="2mBHlEJe2eY" role="EZGxL">
+                      <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                      <node concept="pQlao" id="2mBHlEJe33c" role="EZGxL">
+                        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                        <node concept="3O66mJ" id="2mBHlEJe3Rn" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
+                        </node>
+                      </node>
+                      <node concept="pQlao" id="2mBHlEJe5w3" role="EZGxL">
+                        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
+                        <node concept="3O66mJ" id="2mBHlEJe6kr" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="pQlao" id="2mBHlEJear9" role="EZGxL">
+                      <ref role="pQlar" to="zaie:49jlVprl5$E" resolve="ADD" />
+                      <node concept="pQlao" id="2mBHlEJebfI" role="EZGxL">
+                        <ref role="pQlar" node="2mBHlEJ6it9" resolve="CountBulb" />
+                        <node concept="3O66mJ" id="2mBHlEJec4f" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcvKZ" resolve="Left" />
+                        </node>
+                      </node>
+                      <node concept="pQlao" id="2mBHlEJedHy" role="EZGxL">
+                        <ref role="pQlar" node="24BWV2GKieA" resolve="CountWhite" />
+                        <node concept="3O66mJ" id="2mBHlEJeeyg" role="EZGxL">
+                          <ref role="3O66mG" node="2FUPBXDcvKZ" resolve="Left" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="pQlao" id="2mBHlEJegcc" role="EZGxL">
+                  <ref role="pQlar" node="24BWV2GNgBm" resolve="CountNumberedBox" />
+                  <node concept="3O66mJ" id="2mBHlEJeh1p" role="EZGxL">
+                    <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="pQlao" id="2mBHlEJb0D9" role="EZGxL">
+            <ref role="pQlar" to="zaie:34Rb5Oc3jwF" resolve="False" />
+          </node>
+          <node concept="pQlao" id="2mBHlEJb2dv" role="EZGxL">
+            <ref role="pQlar" to="zaie:34Rb5Oc3jw_" resolve="True" />
           </node>
         </node>
       </node>
-      <node concept="pQlao" id="2FUPBXDmc1J" role="2a5y9Q">
-        <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
-        <node concept="pQlao" id="2FUPBXDmc1K" role="EZGxL">
+      <node concept="pQlao" id="2mBHlEJ8$vp" role="2a5y9Q">
+        <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
+        <node concept="pQlao" id="2mBHlEJ8$vq" role="EZGxL">
           <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
-          <node concept="3O66mJ" id="2FUPBXDmc1L" role="EZGxL">
+          <node concept="3O66mJ" id="2mBHlEJ8$vr" role="EZGxL">
             <ref role="3O66mG" node="2FUPBXDcscQ" resolve="Over" />
           </node>
-          <node concept="3O66mJ" id="2FUPBXDmc1M" role="EZGxL">
+          <node concept="3O66mJ" id="2mBHlEJ8$vs" role="EZGxL">
             <ref role="3O66mG" node="2FUPBXDctoS" resolve="Right" />
           </node>
-          <node concept="3O66mJ" id="2FUPBXDmc1N" role="EZGxL">
+          <node concept="3O66mJ" id="2mBHlEJ8$vt" role="EZGxL">
             <ref role="3O66mG" node="2FUPBXDcu$V" resolve="Under" />
           </node>
-          <node concept="3O66mJ" id="2FUPBXDmc1O" role="EZGxL">
+          <node concept="3O66mJ" id="2mBHlEJ8$vu" role="EZGxL">
             <ref role="3O66mG" node="2FUPBXDcvKZ" resolve="Left" />
           </node>
-          <node concept="3O66mJ" id="2FUPBXDmc1P" role="EZGxL">
+          <node concept="3O66mJ" id="2mBHlEJ8$vv" role="EZGxL">
             <ref role="3O66mG" node="2FUPBXDcwX4" resolve="Pos" />
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="2mBHlEJ8$2Z" role="lGtFl">
+      <property role="3V$3am" value="axioms" />
+      <property role="3V$3ak" value="b4fcd96f-fa06-46a4-9520-beaeb32aa9a1/8445081754001417286/6300386900480908542" />
     </node>
     <node concept="3DQ70j" id="24BWV2GOmUB" role="lGtFl">
       <property role="3V$3am" value="axioms" />
@@ -1166,7 +1381,7 @@
         <property role="3IYp45" value="true" />
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
         <node concept="pQlao" id="2FUPBXDd19S" role="EZGxL">
-          <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+          <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
           <node concept="pQlao" id="2FUPBXDd9fE" role="EZGxL">
             <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
             <node concept="pQlao" id="2FUPBXDd1_L" role="EZGxL">
@@ -1190,7 +1405,7 @@
           <property role="3IYp45" value="true" />
           <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
           <node concept="pQlao" id="2FUPBXDdbUQ" role="EZGxL">
-            <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+            <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
             <node concept="pQlao" id="2FUPBXDdbUR" role="EZGxL">
               <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
               <node concept="pQlao" id="2FUPBXDdbUS" role="EZGxL">
@@ -1214,7 +1429,7 @@
             <property role="3IYp45" value="true" />
             <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
             <node concept="pQlao" id="2FUPBXDdco7" role="EZGxL">
-              <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+              <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
               <node concept="pQlao" id="2FUPBXDdco8" role="EZGxL">
                 <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                 <node concept="pQlao" id="2FUPBXDdco9" role="EZGxL">
@@ -1238,7 +1453,7 @@
               <property role="3IYp45" value="true" />
               <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
               <node concept="pQlao" id="2FUPBXDdcPW" role="EZGxL">
-                <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                 <node concept="pQlao" id="2FUPBXDdcPX" role="EZGxL">
                   <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                   <node concept="pQlao" id="2FUPBXDdcPY" role="EZGxL">
@@ -1261,7 +1476,7 @@
               <node concept="pQlao" id="2FUPBXDdcQ3" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
                 <node concept="pQlao" id="2FUPBXDddkl" role="EZGxL">
-                  <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                  <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                   <node concept="pQlao" id="2FUPBXDddkm" role="EZGxL">
                     <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                     <node concept="pQlao" id="2FUPBXDddkn" role="EZGxL">
@@ -1407,7 +1622,7 @@
         <property role="3IYp45" value="true" />
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
         <node concept="pQlao" id="2FUPBXDdtDJ" role="EZGxL">
-          <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+          <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
           <node concept="pQlao" id="2FUPBXDdtDK" role="EZGxL">
             <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
             <node concept="3O66mJ" id="2FUPBXDduqU" role="EZGxL">
@@ -1431,7 +1646,7 @@
           <property role="3IYp45" value="true" />
           <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
           <node concept="pQlao" id="2FUPBXDdtDR" role="EZGxL">
-            <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+            <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
             <node concept="pQlao" id="2FUPBXDdwCX" role="EZGxL">
               <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
               <node concept="3O66mJ" id="2FUPBXDdwCY" role="EZGxL">
@@ -1455,7 +1670,7 @@
             <property role="3IYp45" value="true" />
             <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
             <node concept="pQlao" id="2FUPBXDdtDZ" role="EZGxL">
-              <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+              <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
               <node concept="pQlao" id="2FUPBXDd_5f" role="EZGxL">
                 <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                 <node concept="3O66mJ" id="2FUPBXDd_5g" role="EZGxL">
@@ -1479,7 +1694,7 @@
               <property role="3IYp45" value="true" />
               <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
               <node concept="pQlao" id="2FUPBXDdtE7" role="EZGxL">
-                <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                 <node concept="pQlao" id="2FUPBXDdCql" role="EZGxL">
                   <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                   <node concept="3O66mJ" id="2FUPBXDdCqm" role="EZGxL">
@@ -1502,7 +1717,7 @@
               <node concept="pQlao" id="2FUPBXDdtEe" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
                 <node concept="pQlao" id="2FUPBXDdtEf" role="EZGxL">
-                  <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                  <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                   <node concept="pQlao" id="2FUPBXDdFJr" role="EZGxL">
                     <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                     <node concept="3O66mJ" id="2FUPBXDdFJs" role="EZGxL">
@@ -1648,7 +1863,7 @@
         <property role="3IYp45" value="true" />
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
         <node concept="pQlao" id="2FUPBXDdJ5a" role="EZGxL">
-          <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+          <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
           <node concept="pQlao" id="2FUPBXDdJ5b" role="EZGxL">
             <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
             <node concept="3O66mJ" id="2FUPBXDdJ5c" role="EZGxL">
@@ -1672,7 +1887,7 @@
           <property role="3IYp45" value="true" />
           <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
           <node concept="pQlao" id="2FUPBXDdJ5i" role="EZGxL">
-            <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+            <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
             <node concept="pQlao" id="2FUPBXDdLPi" role="EZGxL">
               <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
               <node concept="3O66mJ" id="2FUPBXDdLPj" role="EZGxL">
@@ -1696,7 +1911,7 @@
             <property role="3IYp45" value="true" />
             <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
             <node concept="pQlao" id="2FUPBXDdJ5q" role="EZGxL">
-              <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+              <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
               <node concept="pQlao" id="2FUPBXDdQfZ" role="EZGxL">
                 <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                 <node concept="3O66mJ" id="2FUPBXDdQg0" role="EZGxL">
@@ -1720,7 +1935,7 @@
               <property role="3IYp45" value="true" />
               <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
               <node concept="pQlao" id="2FUPBXDdJ5y" role="EZGxL">
-                <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                 <node concept="pQlao" id="2FUPBXDdSLv" role="EZGxL">
                   <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                   <node concept="3O66mJ" id="2FUPBXDdSLw" role="EZGxL">
@@ -1743,7 +1958,7 @@
               <node concept="pQlao" id="2FUPBXDdJ5D" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
                 <node concept="pQlao" id="2FUPBXDdJ5E" role="EZGxL">
-                  <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                  <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                   <node concept="pQlao" id="2FUPBXDdWzD" role="EZGxL">
                     <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                     <node concept="3O66mJ" id="2FUPBXDdWzE" role="EZGxL">
@@ -1889,7 +2104,7 @@
         <property role="3IYp45" value="true" />
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
         <node concept="pQlao" id="2FUPBXDe0ms" role="EZGxL">
-          <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+          <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
           <node concept="pQlao" id="2FUPBXDe0mt" role="EZGxL">
             <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
             <node concept="3O66mJ" id="2FUPBXDe0mu" role="EZGxL">
@@ -1913,7 +2128,7 @@
           <property role="3IYp45" value="true" />
           <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
           <node concept="pQlao" id="2FUPBXDe0m$" role="EZGxL">
-            <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+            <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
             <node concept="pQlao" id="2FUPBXDe3rb" role="EZGxL">
               <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
               <node concept="3O66mJ" id="2FUPBXDe3rc" role="EZGxL">
@@ -1937,7 +2152,7 @@
             <property role="3IYp45" value="true" />
             <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
             <node concept="pQlao" id="2FUPBXDe0mG" role="EZGxL">
-              <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+              <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
               <node concept="pQlao" id="2FUPBXDe9M8" role="EZGxL">
                 <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                 <node concept="3O66mJ" id="2FUPBXDe9M9" role="EZGxL">
@@ -1961,7 +2176,7 @@
               <property role="3IYp45" value="true" />
               <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
               <node concept="pQlao" id="2FUPBXDe0mO" role="EZGxL">
-                <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                 <node concept="pQlao" id="2FUPBXDee1m" role="EZGxL">
                   <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                   <node concept="3O66mJ" id="2FUPBXDee1n" role="EZGxL">
@@ -1984,7 +2199,7 @@
               <node concept="pQlao" id="2FUPBXDe0mV" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
                 <node concept="pQlao" id="2FUPBXDe0mW" role="EZGxL">
-                  <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                  <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                   <node concept="pQlao" id="2FUPBXDeig$" role="EZGxL">
                     <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                     <node concept="3O66mJ" id="2FUPBXDeig_" role="EZGxL">
@@ -2130,7 +2345,7 @@
         <property role="3IYp45" value="true" />
         <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
         <node concept="pQlao" id="2FUPBXDemwr" role="EZGxL">
-          <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+          <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
           <node concept="pQlao" id="2FUPBXDemws" role="EZGxL">
             <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
             <node concept="3O66mJ" id="2FUPBXDemwt" role="EZGxL">
@@ -2154,7 +2369,7 @@
           <property role="3IYp45" value="true" />
           <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
           <node concept="pQlao" id="2FUPBXDemwz" role="EZGxL">
-            <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+            <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
             <node concept="pQlao" id="2FUPBXDepTS" role="EZGxL">
               <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
               <node concept="3O66mJ" id="2FUPBXDepTT" role="EZGxL">
@@ -2178,7 +2393,7 @@
             <property role="3IYp45" value="true" />
             <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
             <node concept="pQlao" id="2FUPBXDemwF" role="EZGxL">
-              <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+              <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
               <node concept="pQlao" id="2FUPBXDet28" role="EZGxL">
                 <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                 <node concept="3O66mJ" id="2FUPBXDet29" role="EZGxL">
@@ -2202,7 +2417,7 @@
               <property role="3IYp45" value="true" />
               <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
               <node concept="pQlao" id="2FUPBXDemwN" role="EZGxL">
-                <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                 <node concept="pQlao" id="2FUPBXDewao" role="EZGxL">
                   <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                   <node concept="3O66mJ" id="2FUPBXDewap" role="EZGxL">
@@ -2225,7 +2440,7 @@
               <node concept="pQlao" id="2FUPBXDemwU" role="EZGxL">
                 <ref role="pQlar" to="zaie:34Rb5Oc3jxw" resolve="If_Then_Else" />
                 <node concept="pQlao" id="2FUPBXDemwV" role="EZGxL">
-                  <ref role="pQlar" node="5PT82VHlsgD" resolve="CountBulbsAroundNumber" />
+                  <ref role="pQlar" node="5PT82VHlsgD" resolve="ValidateAroundNumber" />
                   <node concept="pQlao" id="2FUPBXDeziC" role="EZGxL">
                     <ref role="pQlar" node="5PT82VHkskb" resolve="mkAdjecentBlock" />
                     <node concept="3O66mJ" id="2FUPBXDeziD" role="EZGxL">
@@ -2268,6 +2483,10 @@
           <ref role="pQlar" to="zaie:34Rb5Oc3jwF" resolve="False" />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="2mBHlEIUUi7" role="lGtFl">
+      <property role="3V$3am" value="axioms" />
+      <property role="3V$3ak" value="b4fcd96f-fa06-46a4-9520-beaeb32aa9a1/8445081754001417286/6300386900480908542" />
     </node>
     <node concept="2a5yee" id="2FUPBXDeD$Y" role="pRMhZ">
       <node concept="pQlao" id="2FUPBXDeDKR" role="2a5y9Q">
@@ -2828,11 +3047,20 @@
       </node>
     </node>
     <node concept="pRJ9f" id="24BWV2GKieA" role="pRMtA">
-      <property role="TrG5h" value="CountAny" />
+      <property role="TrG5h" value="CountWhite" />
       <node concept="bl5qV" id="24BWV2GKk1V" role="pRJ9k">
         <ref role="bl5qO" node="2$QNaIM3Kyj" resolve="Box" />
       </node>
       <node concept="bl5qV" id="24BWV2GKieB" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:49jlVpri7XP" resolve="Int" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="2mBHlEJ6it9" role="pRMtA">
+      <property role="TrG5h" value="CountBulb" />
+      <node concept="bl5qV" id="2mBHlEJ6iuL" role="pRJ9k">
+        <ref role="bl5qO" node="2$QNaIM3Kyj" resolve="Box" />
+      </node>
+      <node concept="bl5qV" id="2mBHlEJ6ita" role="pRJ9p">
         <ref role="bl5qO" to="zaie:49jlVpri7XP" resolve="Int" />
       </node>
     </node>
@@ -2846,11 +3074,20 @@
       </node>
     </node>
     <node concept="pRJ9f" id="5PT82VHlsgD" role="pRMtA">
-      <property role="TrG5h" value="CountBulbsAroundNumber" />
+      <property role="TrG5h" value="ValidateAroundNumber" />
       <node concept="bl5qV" id="5PT82VHlshP" role="pRJ9k">
         <ref role="bl5qO" node="5PT82VHksk2" resolve="AdjecentBlock" />
       </node>
       <node concept="bl5qV" id="5PT82VHlsgE" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="2mBHlEIU2EF" role="pRMtA">
+      <property role="TrG5h" value="CountWhiteTilesAroundNumber" />
+      <node concept="bl5qV" id="2mBHlEIU2Gd" role="pRJ9k">
+        <ref role="bl5qO" node="5PT82VHksk2" resolve="AdjecentBlock" />
+      </node>
+      <node concept="bl5qV" id="2mBHlEIU2EG" role="pRJ9p">
         <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
       </node>
     </node>
@@ -2860,6 +3097,15 @@
         <ref role="bl5qO" node="2$QNaIM3Kye" resolve="LightUp" />
       </node>
       <node concept="bl5qV" id="2FUPBXDcNM8" role="pRJ9p">
+        <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
+      </node>
+    </node>
+    <node concept="pRJ9f" id="2mBHlEIUVYy" role="pRMtA">
+      <property role="TrG5h" value="CountWhiteTilesInLine" />
+      <node concept="bl5qV" id="2mBHlEIUW07" role="pRJ9k">
+        <ref role="bl5qO" node="2$QNaIM3Kye" resolve="LightUp" />
+      </node>
+      <node concept="bl5qV" id="2mBHlEIUVYz" role="pRJ9p">
         <ref role="bl5qO" to="zaie:7zB5IrGSITC" resolve="Bool" />
       </node>
     </node>
@@ -2968,27 +3214,36 @@
     <node concept="3QKWG5" id="2$QNaIM3N86" role="3QKWGc">
       <ref role="3QKWG4" to="zaie:49jlVpri7XO" resolve="INTEGER" />
     </node>
-    <node concept="2a5yee" id="7NJsfNUZnCJ" role="pRMhZ">
-      <node concept="pQlao" id="7NJsfNUZnHa" role="2a5y9Q">
+    <node concept="2a5yee" id="2mBHlEJ3wU3" role="pRMhZ">
+      <node concept="pQlao" id="2mBHlEJ3x6C" role="2a5y9Q">
         <ref role="pQlar" node="xFCr3Tlehs" resolve="CorrectPuzzle" />
-        <node concept="3O66mJ" id="7NJsfNUZr5E" role="EZGxL">
+        <node concept="3O66mJ" id="2mBHlEJ3x6J" role="EZGxL">
           <ref role="3O66mG" node="7NJsfNUZr4G" resolve="AnyPuzzle" />
         </node>
       </node>
-      <node concept="pQlao" id="24BWV2GTuJ4" role="2a5y9N">
+      <node concept="pQlao" id="2mBHlEJ3xTu" role="2a5y9N">
         <ref role="pQlar" to="zaie:34Rb5OcqQZf" resolve="And" />
-        <node concept="pQlao" id="7NJsfNV3Uw9" role="EZGxL">
-          <ref role="pQlar" node="7uFpZ7fAw1o" resolve="CheckAllSightLines" />
-          <node concept="3O66mJ" id="7NJsfNV3UOz" role="EZGxL">
+        <node concept="pQlao" id="2mBHlEJ3yGg" role="EZGxL">
+          <ref role="pQlar" node="2FUPBXDeDzr" resolve="CountBulbsInPuzzle" />
+          <node concept="3O66mJ" id="2mBHlEJ3zv3" role="EZGxL">
             <ref role="3O66mG" node="7NJsfNUZr4G" resolve="AnyPuzzle" />
           </node>
         </node>
-        <node concept="pQlao" id="7NJsfNV3VtC" role="EZGxL">
-          <ref role="pQlar" node="7uFpZ7fAw1o" resolve="CheckAllSightLines" />
-          <node concept="pQlao" id="7NJsfNV3VMf" role="EZGxL">
-            <ref role="pQlar" node="xFCr3Tlejr" resolve="Transpose" />
-            <node concept="3O66mJ" id="7NJsfNV3W6R" role="EZGxL">
+        <node concept="pQlao" id="2mBHlEJ3_4U" role="EZGxL">
+          <ref role="pQlar" to="zaie:34Rb5OcqQZf" resolve="And" />
+          <node concept="pQlao" id="2mBHlEJ3_RU" role="EZGxL">
+            <ref role="pQlar" node="7uFpZ7fAw1o" resolve="CheckAllSightLines" />
+            <node concept="3O66mJ" id="2mBHlEJ3BtX" role="EZGxL">
               <ref role="3O66mG" node="7NJsfNUZr4G" resolve="AnyPuzzle" />
+            </node>
+          </node>
+          <node concept="pQlao" id="2mBHlEJ3D4d" role="EZGxL">
+            <ref role="pQlar" node="7uFpZ7fAw1o" resolve="CheckAllSightLines" />
+            <node concept="pQlao" id="2mBHlEJ3DRp" role="EZGxL">
+              <ref role="pQlar" node="xFCr3Tlejr" resolve="Transpose" />
+              <node concept="3O66mJ" id="2mBHlEJ3EEA" role="EZGxL">
+                <ref role="3O66mG" node="7NJsfNUZr4G" resolve="AnyPuzzle" />
+              </node>
             </node>
           </node>
         </node>
